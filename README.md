@@ -11,8 +11,8 @@ El script se copia a sí mismo en la ubicación c:\update.bat. Esto puede ser un
 El script intenta determinar la versión del sistema operativo Windows en ejecución. Dependiendo de la versión encontrada, se establece la variable version para adaptar las acciones del script a esa versión específica.
 3. Manipulación de servicios y usuarios:
 
-    Servicios: Se detiene el servicio "SharedAccess" y se elimina el servicio "sharedaccess". Esto deshabilita el firewall de Windows, abriendo una puerta trasera en el sistema y permitiendo que el tráfico malicioso ingrese o salga del sistema sin restricciones.
-    Usuarios: Se crea un nuevo usuario llamado "administrador" con la contraseña "12345" y se agrega a los Administradores locales del sistema. Esto proporciona al atacante un punto de acceso adicional al sistema con privilegios de administrador, facilitando la ejecución de acciones maliciosas.
+- Servicios: Se detiene el servicio "SharedAccess" y se elimina el servicio "sharedaccess". Esto deshabilita el firewall de Windows, abriendo una puerta trasera en el sistema y permitiendo que el tráfico malicioso ingrese o salga del sistema sin restricciones.
+- Usuarios: Se crea un nuevo usuario llamado "administrador" con la contraseña "12345" y se agrega a los Administradores locales del sistema. Esto proporciona al atacante un punto de acceso adicional al sistema con privilegios de administrador, facilitando la ejecución de acciones maliciosas.
 
 4. Manipulación de configuraciones del sistema:
 
